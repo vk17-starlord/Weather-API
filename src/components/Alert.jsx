@@ -13,7 +13,7 @@ console.log(val,min,max)
 
 
 {
-   val <min || val>max ? <div className="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50  dark:text-red-400" role="alert">
+   val <min || val>=max ? <div className="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50  dark:text-red-400" role="alert">
    <span className="font-medium">Danger alert!</span> {dangermsg}
  </div> : null 
 }
